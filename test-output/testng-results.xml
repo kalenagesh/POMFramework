@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-02T16:14:42 IST" name="Suite" finished-at="2022-10-02T16:14:47 IST" duration-ms="5174">
+    <groups>
+    </groups>
+    <test started-at="2022-10-02T16:14:42 IST" name="Test" finished-at="2022-10-02T16:14:47 IST" duration-ms="5174">
+      <class name="com.testing.pom.test.POMTest">
+        <test-method is-config="true" signature="doSetUp()[pri:0, instance:com.testing.pom.test.POMTest@20f5239f]" started-at="2022-10-02T16:14:38 IST" name="doSetUp" finished-at="2022-10-02T16:14:42 IST" duration-ms="3329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doSetUp -->
+        <test-method signature="doLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testing.pom.test.POMTest@20f5239f]" started-at="2022-10-02T16:14:42 IST" name="doLogin" data-provider="loginData" finished-at="2022-10-02T16:14:42 IST" duration-ms="313" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Both are empty]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method signature="doLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testing.pom.test.POMTest@20f5239f]" started-at="2022-10-02T16:14:42 IST" name="doLogin" data-provider="loginData" finished-at="2022-10-02T16:14:42 IST" duration-ms="173" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Email is empty]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method signature="doLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testing.pom.test.POMTest@20f5239f]" started-at="2022-10-02T16:14:42 IST" name="doLogin" data-provider="loginData" finished-at="2022-10-02T16:14:42 IST" duration-ms="187" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Password is empty]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[queuecodes@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method signature="doLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testing.pom.test.POMTest@20f5239f]" started-at="2022-10-02T16:14:42 IST" name="doLogin" data-provider="loginData" finished-at="2022-10-02T16:14:43 IST" duration-ms="179" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Both are invalid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[codes@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12356]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method signature="doLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testing.pom.test.POMTest@20f5239f]" started-at="2022-10-02T16:14:43 IST" name="doLogin" data-provider="loginData" finished-at="2022-10-02T16:14:43 IST" duration-ms="185" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Email is invalid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[uecodes@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method signature="doLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testing.pom.test.POMTest@20f5239f]" started-at="2022-10-02T16:14:43 IST" name="doLogin" data-provider="loginData" finished-at="2022-10-02T16:14:43 IST" duration-ms="184" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Password is invalid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[queuecodes@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12356]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method signature="doLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testing.pom.test.POMTest@20f5239f]" started-at="2022-10-02T16:14:43 IST" name="doLogin" data-provider="loginData" finished-at="2022-10-02T16:14:45 IST" duration-ms="1609" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Both are valid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[queuecodes@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method signature="doRegister(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testing.pom.test.POMTest@20f5239f]" started-at="2022-10-02T16:14:45 IST" name="doRegister" data-provider="registerData" finished-at="2022-10-02T16:14:45 IST" duration-ms="498" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[All are empty]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegister -->
+        <test-method signature="doRegister(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testing.pom.test.POMTest@20f5239f]" started-at="2022-10-02T16:14:45 IST" name="doRegister" data-provider="registerData" finished-at="2022-10-02T16:14:45 IST" duration-ms="315" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mobile is empty]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Queue]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[queuecodes@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegister -->
+        <test-method signature="doRegister(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testing.pom.test.POMTest@20f5239f]" started-at="2022-10-02T16:14:45 IST" name="doRegister" data-provider="registerData" finished-at="2022-10-02T16:14:46 IST" duration-ms="328" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Name is empty]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8975554764]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[queuecodes@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegister -->
+        <test-method signature="doRegister(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testing.pom.test.POMTest@20f5239f]" started-at="2022-10-02T16:14:46 IST" name="doRegister" data-provider="registerData" finished-at="2022-10-02T16:14:46 IST" duration-ms="311" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Email is empty]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Queue]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8975554764]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegister -->
+        <test-method signature="doRegister(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testing.pom.test.POMTest@20f5239f]" started-at="2022-10-02T16:14:46 IST" name="doRegister" data-provider="registerData" finished-at="2022-10-02T16:14:46 IST" duration-ms="320" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Password is empty]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Queue]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8975554764]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[queuecodes@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegister -->
+        <test-method signature="doRegister(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testing.pom.test.POMTest@20f5239f]" started-at="2022-10-02T16:14:46 IST" name="doRegister" data-provider="registerData" finished-at="2022-10-02T16:14:47 IST" duration-ms="349" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[All are correct]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Queue]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8975554764]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[queuecodes@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegister -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testing.pom.test.POMTest@20f5239f]" started-at="2022-10-02T16:14:47 IST" name="tearDown" finished-at="2022-10-02T16:14:47 IST" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testing.pom.test.POMTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
